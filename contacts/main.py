@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-# contacts/main.py
 
 """This module provides RP Contacts application."""
 
@@ -9,6 +8,7 @@ from PyQt5.QtWidgets import QApplication
 
 from .database import createConnection
 from .views import Window
+
 
 def main():
     """Contacts main function."""
@@ -22,4 +22,4 @@ def main():
     win = Window()
     win.show()
     # Run the event loop
-    sys.exit(app.exec())
+    sys.exit(app.exec_())
